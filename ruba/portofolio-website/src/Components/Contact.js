@@ -27,9 +27,9 @@ export const Contact = () => {
     e.preventDefault();
     setButtonText("Sending...");
 
-    const serviceID = "service_ua9fr8p";
-    const templateID = "template_6o3ibzs";
-    const publicKey = "Ip3ufLKSIVKpuFJj8";
+    const serviceID = "service_otf479j";
+    const templateID = "template_3b5975k";
+    const publicKey = "YOUR_OWN_PUBLIC_KEY";
 
     const templateParams = {
       from_name: `${formDetails.firstName} ${formDetails.lastName}`,

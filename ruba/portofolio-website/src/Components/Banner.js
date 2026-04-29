@@ -1,10 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import './style.css'
 import headerImg from '../assets/img/header-img.svg';
-import arrowCircleDown from '../assets/img/arrow-down-circle.svg';
+import arrrowRightCircle from '../assets/img/ArrowRightCircle.svg';
 import { useState, useEffect } from "react";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -64,7 +65,7 @@ export const Banner = () => {
             <h1>{`Hi! I'm ruba`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             <button onClick={handleDownload}>
-              Download CV <img src={arrowCircleDown} alt="arrow" style={{width: '25px', marginLeft: '8px'}} />
+              Download CV <img src={arrrowRightCircle} alt="arrow" style={{width: '25px', marginLeft: '8px'}} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
